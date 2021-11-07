@@ -3,68 +3,89 @@
 ## Lab 2: Struktur Kondisi
 ### Latihan 1
 #### Program dan Output
-- Program sederhana dengan input 2 buah bilangan serta menentukan bilangan terbesar dari kedua bilangan
-    - Program Menentukan Bilangan Terbesar dari 2 Buah Bilangan
+#### Program sederhana dengan input 2 buah bilangan serta menentukan bilangan terbesar dari kedua bilangan
+- Program Menentukan Bilangan Terbesar dari 2 Buah Bilangan
 
-        ```bash
-        print("Program Menentukan Bilangan Terbesar")
-        print("====================================")
+    ```bash
+    print("Program Menentukan Bilangan Terbesar")
+    print("====================================")
 
-        a = int(input("Masukan nilai a: "))
-        b = int(input("Masukan nilai b: "))
+    a = int(input("Masukan nilai a: "))
+    b = int(input("Masukan nilai b: "))
 
-        if a > b:
-            maks = a
-        else:
-            maks = b
-        print('Nilai Terbesar adalah %d' % maks)
-        ```
-        ![IMG 1](screenshoot/Lab2Lat1.1.png)
+    if a > b:
+        maks = a
+    else:
+        maks = b
+    print('Nilai Terbesar adalah %d' % maks)
+    ```
+    ![IMG 1](screenshoot/Lab2Lat1.1.png)
 
-    - Output
+- Output
 
-        ![IMG 2](screenshoot/Lab2Lat1.2.png)
+    ![IMG 2](screenshoot/Lab2Lat1.2.png)
+
+#### Penjelasan
+#### Konsep Dasar
+- mari kita jabarkan untuk membuat program ini konsep dasarnya seperti ini
+    - kita membuat program untuk membandingkan dua buah bilangan
+    - setelah membandingkan bilangan 1 dan bilangan 2 lalu kita tampung hasilnya untuk dicetak
+#### Penjabaran Program
+- kita membutuhkan 3 variabel dalam kasus ini adalah ‘a‘, ‘b‘, ‘maks‘ untuk menampung nilai yang akan diinput oleh user lalu input yang tadinya string di konversi ke integer menggunakan fungsi build-in int()
+- langkah selanjutnya kita bandingkan dengan operator ‘ > ‘ lalu kita cek dengan if else
+- nah nilai yang tadi kita bandingkan kita tampung di variabel ‘maks’ yang nilainya berubah ubah berdasarkan nilai a dan b
 
 ### Latihan 2
 #### Program dan Output
+#### Program mengurutkan data berdasarkan input jumlah data serta menentukan urutan dari data terkecil
 - Program mengurutkan data berdasarkan input jumlah data serta menentukan urutan dari data terkecil
-    - Program mengurutkan data berdasarkan input jumlah data serta menentukan urutan dari data terkecil
 
-        ```bash
-        print('Program mengurutkan data')
-        print("========================")
+     ```bash
+    print('Program mengurutkan data')
+    angka = []
+    def mengurut(angka):
+        a = int(input("Bilangan ke-1:"))
+        angka.append(a)
+        b = int(input("Bilangan ke-2:"))
+        angka.append(b)
+        c = int(input("Bilangan ke-3:"))
+        angka.append(c)
+        tukar = True
+        while tukar:
+            tukar=False
+            for n in range(len(angka)-1):
+                if angka[n] > angka[n+1]:
+                    angka[n], angka[n+1] = angka[n+1], angka[n]
+                    tukar = True
+        return angka
+    print("Urutan Bilangan:",mengurut(angka))
+    ```
+    ![IMG 3](screenshoot/Lab2Lat2.1.png)
 
-        pertama = int(input("Bilangan pertama: "))
-        kedua = int(input("Bilangan kedua: "))
-        ketiga = int(input("Bilangan ketiga: "))
+- Output
 
-        print(f'urutan: {pertama} {kedua} {ketiga}')
-        ```
-        ![IMG 3](screenshoot/Lab2Lat2.1.png)
-
-    - Output
-
-        ![IMG 4](screenshoot/Lab2Lat2.2.png)
+    ![IMG 4](screenshoot/Lab2Lat2.2.png)
 
 ## Lab 3: Perulangan
 ### Latihan 1
 #### Program dan Output
-- Program Perulangan Bertingkat
-    - Program
+#### Program Perulangan Bertingkat
+- Program
 
-        ```bash
-        #Program Perulangan
+    ```bash
+    #Program Perulangan
 
-        for i in range(0, 10):
-          for j in range(10):
+    for i in range(0, 10):
+        for j in range(10):
             print('%3d'%(i+j), end = ' ')
-          print(' ')
-        ```
-        ![IMG 5](screenshoot/Lab3Lat1.1.png)
- 
-    - Output
+        print(' ')
+    ```
 
-        ![IMG 6](screenshoot/Lab3Lat1.2.png)
+    ![IMG 5](screenshoot/Lab3Lat1.1.png)
+
+- Output
+
+    ![IMG 6](screenshoot/Lab3Lat1.2.png)
 
 ### Latihan 2
 #### Program dan Output
