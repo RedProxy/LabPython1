@@ -18,7 +18,6 @@
         elif b > a:
             print ("B yang terbesar")
         ```
-
         ![IMG 1](screenshoot/Lab2Lat1.1.png)
 
     - Output
@@ -45,3 +44,23 @@
     - Output
 
         ![IMG 4](screenshoot/Lab2Lat2.2.png)
+
+## Lab 3: Perulangan
+### Latihan 1
+#### Program dan Output
+- Program Perulangan Bertingkat
+    - Program Perulangan Bertingkat
+
+        ```bash
+        #Program Perulangan
+
+        for i in range(0, 10):
+          for j in range(10):
+            print('%3d'%(i+j), end = ' ')
+          print(' ')
+        ```
+        ![IMG 5](screenshoot/Lab3Lat1.1.png)
+ 
+    - Output
+
+        ![IMG 6](screenshoot/Lab3Lat1.2.png)
