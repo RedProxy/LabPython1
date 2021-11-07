@@ -14,9 +14,10 @@
         b = int(input("Masukan nilai b: "))
 
         if a > b:
-            print ("A yang terbesar")
-        elif b > a:
-            print ("B yang terbesar")
+            maks = a
+        else:
+            maks = b
+        print('Nilai Terbesar adalah %d' % maks)
         ```
         ![IMG 1](screenshoot/Lab2Lat1.1.png)
 
@@ -88,3 +89,5 @@
 - Output
 
     ![IMG 8](screenshoot/Lab3Lat2.2.png) 
+
+# TERIMA KASIH
