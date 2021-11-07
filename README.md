@@ -49,7 +49,7 @@
 ### Latihan 1
 #### Program dan Output
 - Program Perulangan Bertingkat
-    - Program Perulangan Bertingkat
+    - Program
 
         ```bash
         #Program Perulangan
@@ -64,3 +64,27 @@
     - Output
 
         ![IMG 6](screenshoot/Lab3Lat1.2.png)
+
+### Latihan 2
+#### Program dan Output
+- Tampilkan n bilangan acak yang lebih kecil dari 0.5
+- Nilai n diisi pada saat runtime
+- Anda bisa menggunakan kombinasi while dan for untuk menyelesaikannya
+
+- Program 
+
+    ```bash
+    from random import random
+    n = int(input("Masukan Nilai N: "))
+    for i in range(n):
+        while 1:
+            n = random()
+            if n < 0.5:
+                break
+        print(n)
+    ```
+   ![IMG 7](screenshoot/Lab3Lat2.1.png) 
+
+- Output
+
+    ![IMG 8](screenshoot/Lab3Lat2.2.png) 
