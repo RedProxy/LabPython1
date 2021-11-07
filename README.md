@@ -4,15 +4,24 @@
 ### Latihan 1
 #### Program dan Output
 - Program sederhana dengan input 2 buah bilangan serta menentukan bilangan terbesar dari kedua bilangan
+    - Program Menentukan Bilangan Terbesar dari 2 Buah Bilangan
 
-- Program Menentukan Bilangan Terbesar dengan Menginput 2 Buah Bilanagn
-print("Program Menentukan Bilangan Terbesar")
-print("====================================")
+        ```bash
+        print("Program Menentukan Bilangan Terbesar")
+        print("====================================")
 
-a = int(input("Masukan nilai a: "))
-b = int(input("Masukan nilai b: "))
+        a = int(input("Masukan nilai a: "))
+        b = int(input("Masukan nilai b: "))
 
-if a > b:
-    print ("A yang terbesar")
-elif b > a:
-    print ("B yang terbesar")
+        if a > b:
+            print ("A yang terbesar")
+        elif b > a:
+            print ("B yang terbesar")
+        ```
+
+        ![IMG 1](screenshoot/Lab2Lat1.1.png)
+
+    - Output
+
+        ![IMG 2](screenshoot/Lab2Lat1.2.png)
+
