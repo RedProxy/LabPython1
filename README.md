@@ -28,7 +28,7 @@
 ### Latihan 2
 #### Program dan Output
 - Program mengurutkan data berdasarkan input jumlah data serta menentukan urutan dari data terkecil
-    - Program Menentukan Bilangan Terbesar dari 2 Buah Bilangan
+    - Program mengurutkan data berdasarkan input jumlah data serta menentukan urutan dari data terkecil
 
         ```bash
         print('Program mengurutkan data')
@@ -40,5 +40,8 @@
 
         print(f'urutan: {pertama} {kedua} {ketiga}')
         ```
+        ![IMG 3](screenshoot/Lab2Lat2.1.png)
 
-        
+    - Output
+
+        ![IMG 4](screenshoot/Lab2Lat2.2.png)
