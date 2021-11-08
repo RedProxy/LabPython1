@@ -25,16 +25,6 @@
 
     ![IMG 2](screenshoot/Lab2Lat1.2.png)
 
-#### Penjelasan
-#### Konsep Dasar
-- mari kita jabarkan untuk membuat program ini konsep dasarnya seperti ini
-    - kita membuat program untuk membandingkan dua buah bilangan
-    - setelah membandingkan bilangan 1 dan bilangan 2 lalu kita tampung hasilnya untuk dicetak
-#### Penjabaran Program
-- kita membutuhkan 3 variabel dalam kasus ini adalah ‘a‘, ‘b‘, ‘maks‘ untuk menampung nilai yang akan diinput oleh user lalu input yang tadinya string di konversi ke integer menggunakan fungsi build-in int()
-- langkah selanjutnya kita bandingkan dengan operator ‘ > ‘ lalu kita cek dengan if else
-- nah nilai yang tadi kita bandingkan kita tampung di variabel ‘maks’ yang nilainya berubah ubah berdasarkan nilai a dan b
-
 ### Latihan 2
 #### Program dan Output
 #### Program mengurutkan data berdasarkan input jumlah data serta menentukan urutan dari data terkecil
