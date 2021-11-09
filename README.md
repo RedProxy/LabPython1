@@ -48,7 +48,6 @@
     ` ` ` bash
     else:
         maks = b
-    ` ` `
 
 4. Untuk menampilkan hasil dari dua buah bilangan yang tersedia diatas
 
