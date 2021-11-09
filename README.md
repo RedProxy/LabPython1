@@ -1,9 +1,8 @@
 # LabPython1
-
-## Lab 2: Struktur Kondisi
-### Latihan 1
-#### Program dan Output
-#### Program sederhana dengan input 2 buah bilangan serta menentukan bilangan terbesar dari kedua bilangan
+# Lab 2: Struktur Kondisi
+## Latihan 1
+### Program dan Output
+### Program sederhana dengan input 2 buah bilangan serta menentukan bilangan terbesar dari kedua bilangan
 - Program Menentukan Bilangan Terbesar dari 2 Buah Bilangan
 
     ```bash
@@ -17,17 +16,17 @@
         maks = a
     else:
         maks = b
-    print('Nilai Terbesar adalah %d' % maks)
+    print('Nilai Terbesar adalah ',maks)
     ```
-    ![IMG 1](screenshoot/Lab2Lat1.1.png)
+    ![IMG 1](screenshoot/Lab2Lat1.3.png)
 
 - Output
 
     ![IMG 2](screenshoot/Lab2Lat1.2.png)
 
-### Latihan 2
-#### Program dan Output
-#### Program mengurutkan data berdasarkan input jumlah data serta menentukan urutan dari data terkecil
+## Latihan 2
+### Program dan Output
+### Program mengurutkan data berdasarkan input jumlah data serta menentukan urutan dari data terkecil
 - Program mengurutkan data berdasarkan input jumlah data serta menentukan urutan dari data terkecil
 
      ```bash
@@ -56,10 +55,10 @@
 
     ![IMG 4](screenshoot/Lab2Lat2.2.png)
 
-## Lab 3: Perulangan
-### Latihan 1
-#### Program dan Output
-#### Program Perulangan Bertingkat
+# Lab 3: Perulangan
+## Latihan 1
+### Program dan Output
+### Program Perulangan Bertingkat
 - Program
 
     ```bash
