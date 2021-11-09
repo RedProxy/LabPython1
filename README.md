@@ -24,6 +24,31 @@
 
     ![IMG 2](screenshoot/Lab2Lat1.2.png)
 
+
+- Penjelasan:
+
+1. Untuk menginput dua variabel dengan bilangan bulat (Integer) yang akan dimasukkan dan dimasukkan ke dalam variabel `hasil`
+    ```bash
+    a = int(input( " Masukan nilai a: " ))
+    b = int(input( " Masukan nilai b: " ))
+    ```
+- Proses: 
+
+2. Jika (if) bilangan pertama lebih besar dari bilangan kedua maka hasilnya adalah Bilangan pertama lebih besar
+    ```bash
+    if a > b:
+    maks = a
+    ` ` `
+3.  Tetapi jika bilangan kedua lebih besar dari bilangan pertama maka hasilnya adalah bilangan kedua lebih besar (else)
+    ` ` ` bash
+    else:
+        maks = b
+    ` ` `
+4. Untuk menampilkan hasil dari dua buah bilangan yang tersedia diatas
+    ` ` ` bash
+    print('Nilai Terbesar adalah ',maks)
+    ` ` `
+
 ## Latihan 2
 ### Program dan Output
 ### Program mengurutkan data berdasarkan input jumlah data serta menentukan urutan dari data terkecil
@@ -31,29 +56,38 @@
 
      ```bash
     print('Program mengurutkan data')
-    angka = []
-    def mengurut(angka):
-        a = int(input("Bilangan ke-1:"))
-        angka.append(a)
-        b = int(input("Bilangan ke-2:"))
-        angka.append(b)
-        c = int(input("Bilangan ke-3:"))
-        angka.append(c)
-        tukar = True
-        while tukar:
-            tukar=False
-            for n in range(len(angka)-1):
-                if angka[n] > angka[n+1]:
-                    angka[n], angka[n+1] = angka[n+1], angka[n]
-                    tukar = True
-        return angka
-    print("Urutan Bilangan:",mengurut(angka))
+
+    a = int(input("Bilangan ke-1:"))
+    b = int(input("Bilangan ke-2:"))
+    c = int(input("Bilangan ke-3:"))
+    data = [a,b,c]
+    data.sort()
+
+    print("Urutan Bilangan:", data)
     ```
-    ![IMG 3](screenshoot/Lab2Lat2.1.png)
+    ![IMG 3](screenshoot/Lab2Lat2.3.png)
 
 - Output
 
     ![IMG 4](screenshoot/Lab2Lat2.2.png)
+
+- Penjelasan:
+
+1. Untuk menginput lima buah bilangan yang akan dimasukan ke list variabel `data`
+    ```bash
+    a = int(input("Bilangan ke-1:"))
+    b = int(input("Bilangan ke-2:"))
+    c = int(input("Bilangan ke-3:"))
+    data = [a,b,c]
+    ```
+2. Data akan diproses menggunakan metode sort. yaitu metode untuk mengurutkan data, baik itu dari nilai terkecil ataupun terbesar.
+    ```bash
+    data.sort()
+    ```
+3. Menampilkan urutan data dari nilai terkecil
+    ```bash
+    print("Urutan Bilangan: ", data)
+    ```
 
 # Lab 3: Perulangan
 ## Latihan 1

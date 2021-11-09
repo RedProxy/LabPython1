@@ -8,4 +8,4 @@ if a > b:
     maks = a
 else:
     maks = b
-print('Nilai Terbesar adalah %d' % maks)
+print('Nilai Terbesar adalah ',maks)
