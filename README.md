@@ -110,6 +110,22 @@
 
     ![IMG 6](screenshoot/Lab3Lat1.2.png)
 
+- Penjelasan: i (baris) j (kolom)
+
+1. Untuk melakukan perulangan baris dan kolom dengan nilai 10, menggunakan `nested for`
+    ```bash
+    for i in range(10):
+        for j in range(10):
+    ```
+2. Untuk menampikan hasil dari perulangan
+   * Agar terlihat lebih rapih, gunakan `format string` rata ke kanan sebanyak 3 karakter
+   * Agar tidak membuat baris baru menggunakan `end=''` (i/baris)
+   * Penggunaan `print()` untuk membuat baris baru (j/kolom)
+    ```bash
+        print("%3d"%(i+j), end='')
+    print()
+    ```
+
 ### Latihan 2
 #### Program dan Output
 - Tampilkan n bilangan acak yang lebih kecil dari 0.5
@@ -133,5 +149,26 @@
 - Output
 
     ![IMG 8](screenshoot/Lab3Lat2.2.png) 
+
+- Penjelasan: 
+1. Import module random untuk membuat bilangan acak
+    ```bash
+    from random import random
+    ```
+2. Untuk menginput nilai yang ingin dikonversikan kedalam bilangan bulat (Integer) yang akan di masukan kedalam variabel `n`
+    ```bash
+    n = int(input("Masukan Nilai N: "))
+    ```
+3. Untuk pengulangan range yang diinputkan oleh variable `n`
+    ```bash
+    for i in range(n):
+        while True:
+            n = random()
+            if n < 0.5:
+    ```
+4. Menampilkan hasil dari `n`
+    ```bash
+        print(n)
+    ```
 
 # TERIMA KASIH
