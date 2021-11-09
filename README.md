@@ -44,11 +44,10 @@
 
 3.  Tetapi jika bilangan kedua lebih besar dari bilangan pertama maka hasilnya adalah bilangan kedua lebih besar (else)
 
-    ` ` `
-    
+    ` ` 
     else:
         maks = b
-      ` ` `
+      ` ` 
 
 4. Untuk menampilkan hasil dari dua buah bilangan yang tersedia diatas
 
